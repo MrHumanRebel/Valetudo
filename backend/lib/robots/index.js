@@ -2,6 +2,7 @@ const dreame = require("./dreame");
 const midea = require("./midea");
 const mock = require("./mock");
 const roborock = require("./roborock");
+const roidmi = require("./roidmi");
 const viomi = require("./viomi");
 
 module.exports = Object.assign({},
@@ -9,5 +10,6 @@ module.exports = Object.assign({},
     viomi,
     dreame,
     midea,
-    mock
+    mock,
+    roidmi
 );
